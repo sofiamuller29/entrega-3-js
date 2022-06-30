@@ -24,8 +24,10 @@ const resultadDos = productos.find((producto) => producto.nombre === "Espejo")
 
 const resultadTres = productos.find((producto) => producto.nombre === "Escritorio")
 
+const resultadoCuatro = productos.find((producto) => producto.nombre === "Escritorio" "Television")
 
 
 console.log(resultado)
 console.log(resultadDos)
 console.log(resultadTres)
+console.log(resultadoCuatro)
