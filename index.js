@@ -22,7 +22,10 @@ const resultado = productos.find((producto) => producto.nombre === "Television")
 
 const resultadDos = productos.find((producto) => producto.nombre === "Espejo")
 
+const resultadTres = productos.find((producto) => producto.nombre === "Escritorio")
+
+
 
 console.log(resultado)
 console.log(resultadDos)
-
+console.log(resultadTres)
